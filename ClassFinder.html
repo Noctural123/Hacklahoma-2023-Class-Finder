@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Empire's Curriculum</title>
+        <link rel="stylesheet" href="Styles/style.css">
+        <link rel="stylesheet" href="Styles/navBar.css">
+    </head>
+    <body id = "ClassFinder">
+        <script src = "JavaScript/test.js"></script>
+
+        <header>
+            <a href = "index.html">
+                <img class = "logo" src = "Images/OULogo.png">
+            </a>
+            <nav id = "navbar">
+                <ul class = "nav__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ClassFinder.html">Find Class</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+            <button class = "pewpew" onclick="audio.play();audio.play()">Pew</button>
+            <script type = "text/JavaScript">
+                const audio = new Audio();
+                audio.src = "Sound/pewpew.mp3"
+            </script>
+        </header>
+
+
+
+
+        <main>
+            <section>
+                <div class = "container">
+                    <img id="title-pic" src="Images/containerPict.jpeg">
+                    <div class = "title-text">Embrace the power of the dark side, my young apprentice. Your allegiance is to me, together we shall plan and seek the perfect path.</div>
+                </div>
+            </section>
+    
+            <section id="jedi-sith"></section>
+    
+            <section>
+                <div>
+                    <div id = "darkside-template">
+                        <p class= "darkside-text1">
+                            Embrace your <span class = "passion-text">passion</span> and keep it aside you. Use my wisdom and I will guide you.
+                        </p>
+                        
+                    </div>
+                    <div>
+                        <img id = "darkside-pic" src="Images/darkside.png">
+                    </div>
+                </div>
+            </section>
+
+            <section id="problem-section">
+                <section id="problem-text">
+                  <div>
+                    <p id="word-text">
+                      Enter the classes you've taken...
+                    </p>
+                    <input id="classes-input" type="text"/>
+                    
+                        <div id="output">
+                        Please fill it out
+                        </div>
+                    
+                    <button id="my-Button" onclick="demo();">Compute</button>
+                  </div>
+                </section>
+              </section>
+            </section>
+        </main>
+    </body>
+</html>

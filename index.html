@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Empire's Curriculum</title>
+        <link type="image/png" sizes="16x16" rel="icon" href="Images/light-saber.png">
+        <link rel="stylesheet" type="text/css" href="Styles/style.css">
+        <link rel="stylesheet" href="Styles/navBar.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+        <!-- Three Js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js" integrity="sha512-yNJzAsg5JyP91u+sLHlUDULMBd3hmEiVkYeeN1cQBKaLZ7EyT6oH2u5THNIRM2Fu6VKcZJv+F/QAp1h/qzy9Ow==" crossorigin="anonymous"></script>
+        <!-- GLTFLoader.js -->
+        <script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/GLTFLoader.js"></script>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <header id = "home-header">
+            <a href = "index.html">
+                <img class = "logo" src = "Images/OULogo.png">
+            </a>
+            <nav id = "navbar">
+                <ul class = "nav__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ClassFinder.html">Find Class</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+            <button class = "pewpew" onclick="audio.play();audio.play()">Pew</button>
+            <script type = "text/JavaScript">
+                const audio = new Audio();
+                audio.src = "Sound/pewpew.mp3"
+            </script>
+        </header>
+
+        <section class = "parent-div">
+            <!-- <h1> 3D Space Warp </h1>
+            <h2>THREE.js</h2> -->
+
+            <img class="stars" src="Images/stars.png"> 
+            <img class="wars" src="Images/wars.png">     
+            <h2 class="byline">
+                <span style = color:rgb(174,40,29)> Major </span> 
+                <span style = color:rgb(28,83,159)> League </span> 
+                <span style = color:rgb(247,185,42)> Hacking</span>
+            </h2>
+            <script src = "JavaScript/animation.js"></script>
+            
+            
+        </section>
+
+        <section id="home-text">
+            <section class = "home-intro">
+                <div id = "black-text">
+                    Welcome to our <span style = color:rgb(174,40,29)> Major </span> 
+                    <span style = color:rgb(28,83,159)> League </span> 
+                    <span style = color:rgb(247,185,42)> Hacking</span> Project!
+                </div>
+                <div id = "white-text">
+                    This website is designed specifically for computer science majors at The University of Oklahoma. 
+                    Our platform is designed to help students determine which classes they need to take to complete their degree.
+                     Our website allows you to track your progress by checking which courses you have completed and what courses 
+                     are required to earn your bachelor’s degree in computer science. To begin, simply select the "Find Class" 
+                     option and input the courses you have taken so far. If you wish to return to the main page, select "Home."
+                     For more information about the creators of this project, select "About Us."
+                </div>
+            </section>
+         </section>
+
+    </body>
+
+    <script src="fun.js"></script>
+</html>
