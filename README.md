@@ -33,6 +33,8 @@ Empire's Curriculum is designed to be intuitive and user-friendly. Simply naviga
 
 ## Hacklahoma
 
+https://hacklahoma.org/static/media/logo2023.64490301.png
+
 Hacklahoma is an annual hackathon event that takes place in Oklahoma. The hackathon aims to bring together tech enthusiasts, programmers, designers, and students from all over the state and beyond to collaborate, learn, and build innovative projects.
 
 The event usually spans over a weekend and provides participants with access to industry experts, mentors, and resources to help them develop their ideas. Hacklahoma encourages participants to explore new technologies, experiment with their skills, build strong connections, and build projects that solve real-world problems.
