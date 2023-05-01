@@ -28,4 +28,15 @@ To run Empire's Curriculum on your local machine, please follow these steps:
 - Open the index.html file in your preferred browser.
 
 ## Usage
+
 Empire's Curriculum is designed to be intuitive and user-friendly. Simply navigate through the website using the provided menus to find the courses you need to take in order to graduate.
+
+## Hacklahoma
+
+Hacklahoma is an annual hackathon event that takes place in Oklahoma. The hackathon aims to bring together tech enthusiasts, programmers, designers, and students from all over the state and beyond to collaborate, learn, and build innovative projects.
+
+The event usually spans over a weekend and provides participants with access to industry experts, mentors, and resources to help them develop their ideas. Hacklahoma encourages participants to explore new technologies, experiment with their skills, build strong connections, and build projects that solve real-world problems.
+
+Hacklahoma is a great opportunity for students and professionals to network with like-minded individuals, enhance their skills, and showcase their talents to potential employers and sponsors. The event has a strong emphasis on community-building and diversity and welcomes participants of all backgrounds and levels of experience.
+
+In addition to the actual hacking, the event also features workshops, keynote speakers, and social events to create a well-rounded and enjoyable experience for participants. Hacklahoma is a great example of the growing hackathon culture in the United States, which aims to foster innovation and creativity in the tech industry.
